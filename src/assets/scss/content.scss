@@ -103,7 +103,7 @@
     text-align: center;
     position: relative;
     z-index: 2;
-    background: linear-gradient(180deg, #619a36 0, #bfbdbd);
+    background: #ECE1C8;
     ;
 
     h1 {
@@ -112,7 +112,7 @@
         text-transform: uppercase;
         font-weight: 900;
         line-height: 1;
-        margin-top: 5%;
+        margin-top: -2%;
         padding-bottom: 30px;
         // color: #27396b;
     }
@@ -135,13 +135,13 @@
 
 .upper-main-author {
 
-    background: linear-gradient(180deg, #bfbdbd 0, #619a36);
+    background: url("../../../static/banner/Untitled.png") repeat;
     padding: 5% 0;
     text-align: center;
     position: relative;
     z-index: 2;
 
-    h1 {
+    h1 {    
 
         font-size: 3.5em;
         text-transform: uppercase;
@@ -174,7 +174,7 @@
 
     text-align: center;
     padding: 4% 0;
-    background: linear-gradient(230deg, #315913 0, #ffffff);
+    background: #ECE1C8;
 
 
     h1 {

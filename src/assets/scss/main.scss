@@ -195,6 +195,14 @@ button {
 }
 
 /*Grid Elements*/
+.grid-flex-row{
+    flex-direction: row;
+    span{
+        color: #006E61;
+        font-size: .8em;
+    }
+}
+
 .grid-two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;

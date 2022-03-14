@@ -14,11 +14,10 @@ const IndexPage = (props) => (
     <Layout>
         <Helmet title="Home | Bob Gayhart"/>
         <Nav pathExt={props.path} />
-        <Banner />        
-        <MidBook />
-        <Author />
+        <Banner/>        
+        <MidBook/>
+        <Author/>
         <ParallaxBottom/>  
-        {/* <Testimonial/>        */}
         <FeaturedLogos />
     </Layout>
 )
