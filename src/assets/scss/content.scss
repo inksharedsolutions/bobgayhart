@@ -602,6 +602,9 @@
 /*Book Trailer Css*/
 .book-trailer {
     .grid-child-content {
+
+        
+
         h1 {
             color: #000 !important;
             font-size: 4em;
@@ -612,6 +615,7 @@
                 display: block;
             }
         }
+
 
         h5 {
             text-transform: uppercase;
@@ -629,6 +633,18 @@
     }
 }
 
+.author-p{
+    padding-top:10px;
+}
+.about-author-line{
+    padding-left: 60px;
+    span{
+        color: #f0deb4;
+    }
+}
+.btn-about-author{
+    background-color: #000;
+}
 
 /*Artworks*/
 .artworks-section {

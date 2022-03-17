@@ -8,12 +8,12 @@ const MidBook = (props) => {
             <section className="upper-main">
                 <div className="container-gt separator-line">
                 
-                    <div className="grid-flex-row">
+                     <div className="grid-flex-row">
                                <h1>
                                     <span>Featured Book</span>
                                 </h1>
                         
-                        <hr></hr>
+                        <hr className="hr-line"></hr>
                         
                         <div className="grid-two-columns" id="wrapper-two-books">
 

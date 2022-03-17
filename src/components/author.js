@@ -11,30 +11,40 @@ const Author = () => {
 
                     <div className="grid-child" id="author-contents">
 
-                        <p>
-                            This is needed to establish a unique and strong foundation about you as the author- Born is central Texas, now lives in East Texas. Started playing Fantasy Roll Play Games in 1984, MERP (Middle Earth Roll Play), some GURP’s and a lot of Role Master....
-                        </p>
-
                         <h1 className="author-name-tag">
                             <span>Bob Gayhart</span>
                         </h1>
 
-                        <span className="author-tagline">
-                            Author & Writer
-                        </span>
+                        <p className="author-p">
+                            This is needed to establish a unique and strong foundation about you as the author- Born is central Texas, now lives in East Texas. Started playing Fantasy Roll Play Games in 1984, MERP (Middle Earth Roll Play), some GURP’s and a lot of Role Master....
+                        </p>
 
-                        <button >
+                       
+
+                        {/* <span className="author-tagline">
+                            Author & Writer
+                        </span> */}
+
+                        <button className="btn-about-author">
                             <Link to="/about-the-author">Read More</Link>
                         </button>
                     </div>
 
-                    <div className="grid-child" id="author-image-container">
+                        <div className="about-author-line">
+                                <h1>
+                                    <span>About The Author</span>
+                                </h1>
+                        
+                            <hr className="hr-line"></hr>
+                        </div>
+
+                    {/* <div className="grid-child" id="author-image-container">
                         <img alt="author-img" src={AuthorImg} />
                     </div>
 
                     <div className="grid-child" id="author-image-container">
                         <img alt="author-img" src={DummyAuthor} hidden />
-                    </div>
+                    </div> */}
 
                 </div>
             </section>
