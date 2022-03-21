@@ -15,7 +15,7 @@ const Banner = () => {
                                 <h1>
                                     Calarel
                                 </h1>
-
+                                
                             </div>
 
                         </div>

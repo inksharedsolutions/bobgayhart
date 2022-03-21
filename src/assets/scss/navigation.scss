@@ -38,6 +38,13 @@
     position: absolute;
     background:#78d4b800;
 
+    .nav-left{
+        img {
+            width: 115px;
+            max-width: 100%;
+        }
+    }
+
     h1 {
         a {
             font-size: 20px;
@@ -62,11 +69,7 @@
                 color: #fff !important;
             }
         }
-
-        img {
-            width: 115px;
-            max-width: 100%;
-        }
+   
     }
 }
 

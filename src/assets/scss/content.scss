@@ -35,18 +35,15 @@
 
 
 .parallax-bottom {
-    background: url("../../../static/banner/parallax.jpg");
+    background: url("../../../static/banner/journalingx1200.png");
     // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    // background: #e6e6e6;
+    // background: #006e6141;
+    box-shadow: inset 0 0 0 2000px rgb(85 172 167 / 25%);
     height: 50vh;
-
-
-
-
 }
 
 .flex-container {
@@ -58,21 +55,21 @@
 
     h1 {
 
-        &:before {
-            content: '';
-            width: 13%;
-            background: #da3107;
-            position: relative;
-            display: block;
-            height: 4px;
-            margin: 7px 0px;
+        // &:before {
+        //     content: '';
+        //     width: 13%;
+        //     background: #da3107;
+        //     position: relative;
+        //     display: block;
+        //     height: 4px;
+        //     margin: 7px 0px;
 
-        }
+        // }
 
         position: relative;
         font-size:40px;
         font-weight: 800;
-        color: #4e72d9 !important;
+        color: #ECE1C8 !important;
         // text-shadow: 1px 1px black;
         padding-top: 0;
         text-align: center;
@@ -113,7 +110,7 @@
         font-weight: 900;
         line-height: 1;
         margin-top: -2%;
-        padding-bottom: 30px;
+        // padding-bottom:  30px;
         // color: #27396b;
     }
 
@@ -148,6 +145,8 @@
         font-weight: 900;
         line-height: 1;
         margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .middle-params {
@@ -634,16 +633,32 @@
 }
 
 .author-p{
-    padding-top:10px;
+    padding-top:30px;
 }
 .about-author-line{
     padding-left: 60px;
     span{
+        font-family: ui-sans-serif;
         color: #f0deb4;
+    }
+    hr{
+        background-color: #f0deb4;
+        border: none;
+        display: block;
+        height: 2px;
+        margin: 1.5rem 0;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .btn-about-author{
-    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #242c00;
+    a{
+        color: #fff;
+    }
 }
 
 /*Artworks*/
@@ -741,10 +756,11 @@
     }
 
     h1 {
-        margin-top: 7%;
+        margin-top: 0%;
 
         span {
             color: #3d3d3d !important;
+            font-family: fangsong;
             font-weight: 900;
             display: block;
             letter-spacing: 0;
@@ -754,7 +770,7 @@
     }
 
     p {
-        color: #000;
+        color: #006E61;
     }
 
 

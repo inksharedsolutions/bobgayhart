@@ -12,7 +12,7 @@ const Author = () => {
                     <div className="grid-child" id="author-contents">
 
                         <h1 className="author-name-tag">
-                            <span>Bob Gayhart</span>
+                            <span>Robert Gayhart</span>
                         </h1>
 
                         <p className="author-p">

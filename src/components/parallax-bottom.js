@@ -11,12 +11,12 @@ const ParallaxBottom = () => {
 
                 <div className="flex-container">
 
-                    <h1>
+                    <h1>    
                         <div>
-                        Old gamers never die they just write books.
-                            {/* <span className="italic-tag span-verse">
-                                James W. Bosley
-                            </span> */}
+                        " Old Gamers Never Die They Just Write Books "
+                            <span className="italic-tag span-verse">
+                                 Robert Gayhart
+                            </span>
                         </div>
                     </h1>
 
