@@ -32,7 +32,7 @@
     width: 100%;
     padding: 0 5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     z-index: 999;
     position: absolute;
@@ -40,8 +40,15 @@
 
     .nav-left{
         img {
-            width: 115px;
+            width: 100px;
             max-width: 100%;
+        }
+    }
+
+    .nav-right{
+        width: 39%;
+        li{
+            display: inline-block;
         }
     }
 
@@ -54,13 +61,13 @@
     li {
 
         list-style-type: none;
-        padding: 0 2%;
+        padding: 0 3%;
 
         a {
 
             text-decoration: none;
             color: #ffffff !important;
-            font-size: 18px;
+            font-size: 16px;
             text-transform: uppercase;
             font-weight: 900;
             text-shadow: 1px 1px #000000;

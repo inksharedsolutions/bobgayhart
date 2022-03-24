@@ -2,11 +2,20 @@
 
 .book-wraps {
 
-    text-align: center;
+    text-align: right;
     padding: 0% 0;
 
+    &:before{
+        content: '';
+        background: url('../../../static/banner/xv.png'), linear-gradient(rgba(0, 110, 97, 1), rgba(0, 110, 97, 1)) ;
+        width: 345px;
+        height: 546px;
+        position: absolute;
+        transform: translate(-100px, 20px);
+    }
+
     img {
-        width: 680px;
+        width: 500px;
         position: relative;
         z-index: 2;
         padding: 30px;
@@ -35,21 +44,22 @@
 
 
 .parallax-bottom {
-    background: url("../../../static/banner/journalingx1200.png");
+    background: linear-gradient(rgba(0, 110, 97, 0.4), rgba(0, 110, 97, 0.4)), url("../../../static/banner/journalingx1200.png");
     // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     // background: #006e6141;
-    box-shadow: inset 0 0 0 2000px rgb(85 172 167 / 25%);
+    // box-shadow: inset 0 0 0 2000px rgb(85 172 167 / 25%);
     height: 50vh;
+
 }
 
 .flex-container {
     display: grid;
     height: 50vh;
-    grid-template-columns: 50%;
+    grid-template-columns: 60%;
     justify-content: center;
     align-items: center;
 
@@ -70,6 +80,7 @@
         font-size:40px;
         font-weight: 800;
         color: #ECE1C8 !important;
+        font-family: Copperplate, "Copperplate Gothic", fantasy;
         // text-shadow: 1px 1px black;
         padding-top: 0;
         text-align: center;
@@ -106,8 +117,8 @@
     h1 {
 
         font-size: 3.5em;
-        text-transform: uppercase;
-        font-weight: 900;
+        font-weight: bolder;
+        font-family: Copperplate, "Copperplate Gothic", fantasy;
         line-height: 1;
         margin-top: -2%;
         // padding-bottom:  30px;
@@ -132,7 +143,8 @@
 
 .upper-main-author {
 
-    background: url("../../../static/banner/Untitled.png") repeat;
+    background: url('../../../static/banner/xv.png'), linear-gradient(rgba(36, 44, 0, 1), rgba(36, 44, 0, 1));
+    border: none;
     padding: 5% 0;
     text-align: center;
     position: relative;
@@ -173,7 +185,7 @@
 
     text-align: center;
     padding: 4% 0;
-    background: #ECE1C8;
+    background: #F1ECE2;
 
 
     h1 {
@@ -201,17 +213,18 @@
 
 
         img {
-            width: 80%;
+            width: 100%;
         }
 
     }
 
     #logos-col {
-        margin: 6% 0;
+        margin: 5% 0;
 
-        .strattonlogo {
-            width: 90%;
-        }
+        // .strattonlogo {
+        //     width: 90%;
+        //     margin
+        // }
     }
 
     .gallery {
@@ -535,20 +548,21 @@
     display: block;
     font-size: 25px;
     margin-top: 8px;
-    color: #fb7e35 !important;
+    color: #242C00 !important;
     padding-bottom: 20px;
-
-
-
+    text-align: right;
+    font-family: 'Averia Libre', cursive;
+    font-style: italic;
 
     &:before {
         content: '';
         width: 28%;
-        background: #bbbbbb;
+        background: #4d5e03;
         position: relative;
         display: inline-block;
         height: 1px;
         margin: 6px 36px;
+        
     }
 }
 
@@ -638,7 +652,8 @@
 .about-author-line{
     padding-left: 60px;
     span{
-        font-family: ui-sans-serif;
+        font-family: Copperplate, "Copperplate Gothic", fantasy;
+        text-transform: none;
         color: #f0deb4;
     }
     hr{
@@ -658,6 +673,11 @@
     background-color: #242c00;
     a{
         color: #fff;
+    }
+
+    &:hover{
+        background-color: #6A8100;
+        border-color: #6A8100;
     }
 }
 
@@ -750,7 +770,7 @@
 
     span {
         text-transform: uppercase;
-        font-weight: 900;
+        // font-weight: 900;
         letter-spacing: 0.5rem;
         color: #000000 !important;
     }
@@ -759,9 +779,9 @@
         margin-top: 0%;
 
         span {
-            color: #3d3d3d !important;
-            font-family: fangsong;
-            font-weight: 900;
+            color: #242C00 !important;
+            font-family: 'Averia Libre', cursive;
+            font-style: italic;
             display: block;
             letter-spacing: 0;
             line-height: 1;
@@ -769,8 +789,15 @@
         }
     }
 
-    p {
+    .author-p {
         color: #006E61;
+        text-align: justify;
+    }
+
+    #book-content{
+        color: #242C00;
+        font-family: 'Averia Libre', cursive;
+        font-style: italic;
     }
 
 

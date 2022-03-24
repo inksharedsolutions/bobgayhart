@@ -151,6 +151,12 @@ button {
         text-transform: uppercase;
         color: hsl(0, 0%, 100%) !important;
     }
+
+    &:hover{
+        background-color: #6A8100;
+        border-color: #6A8100;
+        transition: .2s;
+    }
 }
 
 .content-wraps {
@@ -207,10 +213,8 @@ button {
         border: none;
         display: block;
         height: 2px;
-        margin: 1.5rem 0;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 1.5rem auto;
+        width: 30%;
     }
 }
 
@@ -226,6 +230,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
+    justify-content: center;
 }
 
 .container-gt {

@@ -210,10 +210,11 @@ $prm-font-size : 12px;
 .abtiaryButton {
     padding: 13px 74px;
     border: none;
-    background: #049cd4;
+    background: #242C00;
     color: #fff;
     text-transform: uppercase;
     margin-top: 39px;
+    border-radius: 25px;
 }
 
 .buttonContainer {
@@ -281,7 +282,7 @@ $prm-font-size : 12px;
 
     a {
         text-decoration: none;
-        background: #ff4d4f;
+        background: #242C00;
         padding: 4px 15px;
         color: #ffffff !important;
         font-size: 13px;
@@ -433,7 +434,7 @@ $prm-font-size : 12px;
 .info-section-address {
     text-align: center;
     margin: 39px 0;
-    border-top: 2px solid #ff2828;
+    border-top: 2px solid #242C00;
 
     span {
         display: block;
@@ -477,7 +478,7 @@ $prm-font-size : 12px;
 
 
 .sub-heading {
-    color: #c94709;
+    color: #ECE1C8;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 25px;

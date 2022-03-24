@@ -39,7 +39,7 @@ const Newsletter = () => {
                         <div className="form-newsletter-wrapper">
                             <input name="email" type="email" placeholder="Enter email" />
 
-                            <input name="author_name" type="hidden" value='Bob Gayhart' />
+                            <input name="author_name" type="hidden" value='Robert Gayhart' />
 
                             <button>
                                 <input type="submit" name="submit" />

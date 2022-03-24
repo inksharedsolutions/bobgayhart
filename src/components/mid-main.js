@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo1 from '../../static/logo/amazon (2).png'
 import Logo2 from '../../static/logo/bam (2).png'
-import Logo3 from '../../static/logo/Barnes-and-noble-booksellers-logo (2).png'
-import Logo4 from '../../static/logo/logo4.png'
+import Logo3 from '../../static/logo/ban.png'
+import Logo4 from '../../static/logo/Stratton.png'
 
 const MidMain = () => {
     return (
@@ -11,7 +11,7 @@ const MidMain = () => {
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
-                        Bob Gayhart has been featured numerous times on...
+                        Robert Gayhart has been featured numerous times on...
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">
@@ -20,15 +20,15 @@ const MidMain = () => {
                         </li>
 
                         <li>
-                            <img src={Logo2} alt="bam-logo"/>
-                        </li>
-
-                        <li>
                             <img src={Logo3} alt="b-and-n-logo"/>
                         </li>
 
                         <li className='strattonlogo'>
                             <img src={Logo4} alt="stratton-logo"/>
+                        </li>
+
+                        <li>
+                            <img src={Logo2} alt="bam-logo"/>
                         </li>
 
                     </div>

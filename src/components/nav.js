@@ -44,6 +44,7 @@ const Nav = (props) => {
                         </Link>
                     </li>
                 </div>
+                <div className='nav-right'>
                     <li>
                         <Link to="/">
                             Home
@@ -67,6 +68,7 @@ const Nav = (props) => {
                             Contact
                         </Link>
                     </li>
+                </div>
             </nav>
 
 

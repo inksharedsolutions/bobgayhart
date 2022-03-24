@@ -34,7 +34,7 @@ const MidBook = (props) => {
                                 </h1> */}
 
                                 <div className="grid-child" id="author-contents">
-                                    <p>
+                                    <p id="book-content">
                                         This story is about a hero who through hard work and perseverance and with allies has built up two cities in lands that were his ancestral lands. Until recently and with a non-aggression treaty in place such construction would not have been possible. 
                                     </p>
                                     
