@@ -2,7 +2,7 @@
 
 .book-wraps {
 
-    text-align: right;
+    text-align: center;
     padding: 0% 0;
 
     &:before{
@@ -10,7 +10,7 @@
         background: url('../../../static/banner/xv.png'), linear-gradient(rgba(0, 110, 97, 1), rgba(0, 110, 97, 1)) ;
         width: 345px;
         height: 546px;
-        position: absolute;
+        position: absolute; 
         transform: translate(-100px, 20px);
     }
 
@@ -650,7 +650,8 @@
     padding-top:30px;
 }
 .about-author-line{
-    padding-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
     span{
         font-family: Copperplate, "Copperplate Gothic", fantasy;
         text-transform: none;
