@@ -989,7 +989,7 @@
     .booklinkBlocks {
         li {
 
-            background: #ff4d4f;
+            background: #242c00;
             margin-bottom: 6px;
             display: block !important;
             margin-bottom: 0.6em;
@@ -1389,6 +1389,39 @@
 }
 
 @media screen and (max-width: 450px) {
+    #disqus_thread{
+        padding: 0;
+    }
+
+    .flex-container-fx .contactMessage {
+        text-align: center;
+    }
+
+    .contentBook {
+        .sub-heading{
+        font-size: 20px;
+        }
+    }
+
+    .mid-main h1 {
+        font-size: 2.5em;
+    }
+
+    .parallax-bottom{
+        .flex-container{
+            h1{
+                font-size: 25px;
+            }
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .upper-main-author h1{
+        font-size: 2.0em;
+    }
+
     .banner-section{
         background-position: -20em;
     }
@@ -1429,6 +1462,7 @@
             line-height: 65px;
         }
         p{
+            font-size: 30px;
             border-radius: 50px;
         }
         
@@ -1483,13 +1517,13 @@
 
             .banner-text {
             h1{
-                font-size: 60px;
+                font-size: 45px;
                 letter-spacing: 0px;
                 margin-left: 0;
                 margin-right: 0;
                 padding-top: 220px;
 
-                .bannertxt{
+                .bannertxt{ 
                     font-size: 65px;
                 }
             } 
@@ -1578,10 +1612,16 @@
             font-size: 2.5em;
         }
     }
+
+    
 }
 
 
 @media screen and (max-height: 450px){
+
+    .upper-main-author h1{
+        font-size: 2.0em;
+    }
 
     #author-contents h1 span{
         font-size:  .8em;
@@ -1596,7 +1636,7 @@
          
          .grid-child-elem .banner-text {
          h1{
-             font-size: 70px;
+        font-size: 45px;
          letter-spacing: 0;
         //  padding-top: 140px;
          line-height: 65px;
@@ -1611,6 +1651,10 @@
  
      
          }
+         p{
+            font-size: 35px;
+         }
+
          span{
              font-size: 20px;
          }
@@ -1638,12 +1682,22 @@
 
 @media screen and (max-width: 390px){
     .container-gt .grid-child-elem .banner-text h1 {
-        font-size: 60px;
+        font-size: 45px;
         padding-top: 220px;
         letter-spacing: 1px;
     
     }
+    p{
+        font-size: 30px;
+    }
 
+    .upper-main-author h1 {
+        font-size: 2.0em;
+    }
+    
+    .about-author-line h1{
+        font-size: 2.0em;
+    }
 
 }
 
@@ -1734,8 +1788,12 @@
         padding: 0;
     }
     
-  
-
+    @media screen and (max-width: 320px){
+    .grid-two-columns #author-contents span {
+        letter-spacing: 1px;
+        font-size: 0.6em;
+    }
+    }
 
     @media screen and (max-width: 280px){
         .container-gt{
