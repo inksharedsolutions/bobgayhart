@@ -95,10 +95,10 @@
 
     // }
 
-    h1 {
-        font-size: 2.0em;
-        font-weight: bold;
-    }
+    // h1 {
+    //     font-size: 2.0em;
+    //     font-weight: bold;
+    // }
 
 }
 
@@ -163,10 +163,10 @@
         text-align: center;
         font-family: Copperplate, "Copperplate Gothic", fantasy;
         font-weight: bold;
-        font-size: 10em;
-        letter-spacing: 4px;
+        font-size: 100px;
+        letter-spacing: 10px;
         // text-shadow: 6px 5px #f8f8f838 !important;
-        line-height: 125px;
+        // line-height: 125px;
 
         &:after {
             content: '';
@@ -189,13 +189,13 @@
         position: relative;
         z-index: 10;
         color: #ECE1C8;
-        letter-spacing: 0px;
-        line-height: 0;
-        font-size: 50px;
+        // letter-spacing: 0px;
+        line-height: 1;
+        font-size: 35px;
         font-weight: 500;
         font-family: 'Averia Libre', cursive;
         text-align: center;
-        padding: 5%;
+        // padding: 5%;
         font-style: italic;
         border-radius: 100px;
 

@@ -35,7 +35,10 @@ const MidBook = (props) => {
 
                                 <div className="grid-child" id="author-contents">
                                     <p id="book-content">
-                                        This story is about a hero who through hard work and perseverance and with allies has built up two cities in lands that were his ancestral lands. Until recently and with a non-aggression treaty in place such construction would not have been possible. 
+                                        This is the story of Calarel Nesis. Growing up with her younger sister
+                                        learns how to train War Horses, how to protect herself with a verity of
+                                        weapons, survive in nature and so much more than her father, before deciding
+                                        to leave home at the young age of one hundred and forty eight.
                                     </p>
                                     
                                     <button className="btn-book-featured">

@@ -10,6 +10,7 @@ import FeaturedLogos from "../components/mid-main"
 import ParallaxBottom from "../components/parallax-bottom"
 // import Testimonial from "../components/testimonial"
 
+
 const IndexPage = (props) => (
     <Layout>
         <Helmet title="Home | Robert Gayhart"/>
