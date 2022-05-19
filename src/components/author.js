@@ -16,7 +16,9 @@ const Author = () => {
                         </h1>
 
                         <p className="author-p">
-                            This is needed to establish a unique and strong foundation about you as the author- Born is central Texas, now lives in East Texas. Started playing Fantasy Roll Play Games in 1984, MERP (Middle Earth Roll Play), some GURP’s and a lot of Role Master....
+                            Born in central Texas, now lives in East Texas. Started
+                            playing Fantasy Roll Play Games in 1984, MERP (Middle
+                            Earth Roll Play), some GURP’s and a lot of Role Master....
                         </p>
 
                        

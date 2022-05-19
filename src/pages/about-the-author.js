@@ -5,8 +5,8 @@ import Nav from '../components/nav'
 
 
 import Banner from '../components/non-front-banner'
-// import AuthorImg from '../../static/author/author-profile.jpg'
-import DummyImg from '../../static/author/dummy-profile.jpg'
+import AuthorImg from '../../static/author/me-truck.jpg'
+// import DummyImg from '../../static/author/dummy-profile.jpg'
 import { Helmet } from "react-helmet"
 
 const ATB = (props) => {
@@ -26,7 +26,7 @@ const ATB = (props) => {
                         <div className="heading-quote column">
                             <div className="author-image-container">
                                 <img
-                                    src={DummyImg}
+                                    src={AuthorImg}
                                     alt="_main_author" />
                             </div>
 
@@ -49,7 +49,14 @@ const ATB = (props) => {
                         <article className="article-section column" id="author">
 
                             <p>
-                                This is needed to establish a unique and strong foundation about you as the author- Born is central Texas, now lives in East Texas. Started playing Fantasy Roll Play Games in 1984, MERP (Middle Earth Roll Play), some GURP’s and a lot of Role Master. Was a game master for a long time, then the wife at the time wanted to be the Game Master and one of our gaming buddies wanted to be the GM. I was out of work for a little while and bored, a friend said write about the game. That started many years ago. Now I finally have the first book professionally edited and published.
+                                Born in central Texas, now lives in East Texas. Started playing
+                                Fantasy Roll Play Games in 1984, MERP (Middle Earth Roll Play),
+                                some GURP's and a lot of Role Master. I was a game master for a
+                                long time, then my wife at the time wanted to be the Game Master
+                                and one of our gaming buddies wanted to be the GM. I was out of 
+                                work for a little while and bored, a friend said write about the
+                                game. That started many years ago. Now I finally have the first
+                                book professionally edited and published.
                             </p>
 
 
