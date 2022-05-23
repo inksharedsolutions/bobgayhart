@@ -37,7 +37,7 @@ const MidBook = (props) => {
                                     <p id="book-content">
                                         This is the story of Calarel Nesis. Growing up with her younger sister
                                         learns how to train War Horses, how to protect herself with a verity of
-                                        weapons, survive in nature and so much more than her father, before deciding
+                                        weapons, survive in nature and so much more from her father, before deciding
                                         to leave home at the young age of one hundred and forty eight.
                                     </p>
                                     
