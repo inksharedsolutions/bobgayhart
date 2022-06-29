@@ -32,7 +32,7 @@ const Footer = () => {
                             <ul>
 
                                 <li>
-                                    <a href="https://www.facebook.com/StrattonPressInc/"
+                                    <a href="https://www.facebook.com/Bob-Gayhart-101839405908328/"
                                         target="_blank"
                                         rel="noreferrer">
                                         <FontAwesomeIcon
@@ -44,7 +44,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://twitter.com/StrattonPress"
+                                        href="https://twitter.com/RobertGayhart65"
                                         rel="noreferrer"
                                     >
 
@@ -57,7 +57,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.instagram.com/strattonpress/"
+                                        href="https://www.instagram.com/calarel148/"
                                         rel="noreferrer"
                                     >
 
