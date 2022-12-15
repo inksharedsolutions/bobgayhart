@@ -14,21 +14,21 @@ const Nav = (props) => {
         'Contact'
     ]
 
-    let Listed = pages.map((e) => {
+    // let Listed = pages.map((e) => {
 
-        var newUrl = ((e).replace(/[ /]/g, "-").trim().toLowerCase());
-        let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
+    //     var newUrl = ((e).replace(/[ /]/g, "-").trim().toLowerCase());
+    //     let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
 
-        return (
-            <li>
-                <Link
-                    to={filterUrl}>
-                    {e.replace(/[-/]/g, " ").trim()}
-                </Link>
-            </li>
-        )
+    //     return (
+    //         <li>
+    //             <Link
+    //                 to={filterUrl}>
+    //                 {e.replace(/[-/]/g, " ").trim()}
+    //             </Link>
+    //         </li>
+    //     )
 
-    })
+    // })
 
     const clickEvent = (e) => {
         setToggled(!toggled);
@@ -58,8 +58,8 @@ const Nav = (props) => {
                     </li>
 
                     <li>
-                        <Link to="/about-the-book">
-                            About the Book
+                        <Link to="http://shop.calarelthejourney.com/">
+                            Shop
                         </Link>
                     </li>
 
@@ -116,7 +116,29 @@ const Nav = (props) => {
                             Navigations
 						</p>
 
-                        {Listed}
+                        <li>
+                            <Link to="/">
+                                Home
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/about-the-author">
+                                About the Author
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="http://shop.calarelthejourney.com/">
+                                Shop
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/contact">
+                                Contact
+                            </Link>
+                        </li>
 
                     </ul>
 

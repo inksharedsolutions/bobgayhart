@@ -98,8 +98,8 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about-the-book">
-                                    About the Book
+                                <Link to="http://shop.calarelthejourney.com/">
+                                    Shop
                                 </Link>
                             </li>
                             <li>
